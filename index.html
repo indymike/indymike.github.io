@@ -5,18 +5,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper red darken-4">
-	<a href="#" class="brand-logo"> indymike</a>
-	<ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="http://mikeseidle.com">Blog</a></li>
-          <li><a href="http://virtualpaymentsystem.com">VPS</a></li>
-          <li><a href="http://workhereapp.com">Work Here</a></li>
-	</ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed">
+      <nav>
+	<div class="nav-wrapper red darken-4">
+	  <a href="#" class="brand-logo"> indymike</a>
+	  <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="http://mikeseidle.com">Blog</a></li>
+            <li><a href="http://virtualpaymentsystem.com">VPS</a></li>
+            <li><a href="http://workhereapp.com">Work Here</a></li>
+	  </ul>
+	</div>
+      </nav>
+     </div>
     <main>
-      
+      <div class="row">
+	<div class="col s12 m6 l4">
+	  <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="img/mailbox.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">dumpaddress <i class="mdi-navigation-more-vert right"></i></span>
+              <p><a href="http://github.com/indymike/dumpaddress">Repository</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title <i class="mdi-navigation-close right"></i></span>
+              <p>Python script for intelligently dumping email
+              addresses from text and markup files.</p>
+            </div>
+	  </div>
+	</div>
+      </div>
     </main>
   </body>
 </html>
