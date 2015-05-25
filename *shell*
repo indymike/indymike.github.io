@@ -1,0 +1,72 @@
+bash-3.2$ pwd
+/Users/indymike
+bash-3.2$ cd projects/
+bash-3.2$ ls
+Meteor Meetup		meteor-indy		vps.wpr
+blog-posts		michel-orgmode		vps.wpu
+differential		open			workhere
+ember			personal
+googlefontdirectory	vps
+bash-3.2$ cd personal/indymike.github.io/
+bash-3.2$ git add -A
+bash-3.2$ git commit -m "Fix"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+bash-3.2$ git push origin master
+Everything up-to-date
+bash-3.2$ git add -A
+bash-3.2$ git commit -m "Add jQuery"
+[master 008de29] Fix
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bash-3.2$ Everything up-to-date
+bash: Everything: command not found
+bash-3.2$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 279 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:indymike/indymike.github.io.git
+   a98eb43..008de29  master -> master
+bash-3.2$ git add -A
+bash-3.2$ git commit -m "Add jQuery"
+[master dd2a41e] Add jQuery
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+bash-3.2$ git push origin master
+fatal: 'orign' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+bash-3.2$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 369 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:indymike/indymike.github.io.git
+   008de29..dd2a41e  master -> master
+bash-3.2$ git add -A; git commit -m "Content revision"
+[master dfe6436] Content revision
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+bash-3.2$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 298 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:indymike/indymike.github.io.git
+   dd2a41e..dfe6436  master -> master
+bash-3.2$ git add -A; git commit -m "Content revision"
+[master 7717251] Content revision
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+bash-3.2$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 352 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To git@github.com:indymike/indymike.github.io.git
+   dfe6436..7717251  master -> master
+bash-3.2$ 
